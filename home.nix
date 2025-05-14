@@ -50,9 +50,7 @@
   home.file = {
     
     ".bash_aliases" = { 
-      # source = fileReference "./bash_aliases";
-      source = ./bash_aliases; 
-    
+      source = ./bash/bash_aliases; 
     };
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
