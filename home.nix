@@ -3,7 +3,7 @@
 {
 
   imports = [
-    # ./bash_alias.nix
+    ./bash/bash_alias.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -49,8 +49,6 @@
   # plain files is through 'home.file'.
   home.file = {
     
-    ".bash_aliases" = { 
-      source = ./bash/bash_aliases; 
     };
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
