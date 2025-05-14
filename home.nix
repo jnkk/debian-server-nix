@@ -25,7 +25,10 @@
     
     nixd
     lazygit
-    neovim
+    fast-cli
+
+    # text editors
+    neovim micro
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
