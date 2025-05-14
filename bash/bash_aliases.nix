@@ -6,9 +6,7 @@
 
     ".bash_aliases".text = ''
 
-      # https://bash-prompt-generator.org/
-      # PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\t | \[\e[38;5;47m\]\u\[\e[0m\]@\[\e[38;5;209m\]\H\[\e[0m\] \w | (\[\e[46m\]${PS1_CMD1}\[\e[0m\])\n\\$ '
-      #
+      
 
       alias lsa='eza -al' 
       alias lsl='eza -l'
