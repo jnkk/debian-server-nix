@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+
+  imports = [
+    # ./bash_alias.nix
+  ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "jnkk";
@@ -21,6 +25,7 @@
 
     lazygit
     neovim
+
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
@@ -42,6 +47,16 @@
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
+    
+    ".bash_aliases".text = ''
+        alias lg='lazygit'
+        alias sb='source .bashrc'
+        alias 'cd..'='cd ..'
+        alias '..'='cd ..'
+        alias hmsf='home-manager switch --flake .'
+        alias homeconfig='cd ~/nix-config; nvim home.nix'
+    '';
+
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
