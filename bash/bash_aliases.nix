@@ -34,7 +34,7 @@
       alias panas='curl wttr.in' 
       alias mati='deactivate; cd ' 
       alias dots='cd ~/.config/home-manager' 
-      alias homeconf='cd ~/.config/home-manager' 
+      alias homeconf='cd /home/jnkk/nix-config' 
       alias config='cd ~/.config' 
       alias hmsf='home-manager switch --flake .' 
       #alias digi='cd $HOME/githubz/digital-garden/content'
