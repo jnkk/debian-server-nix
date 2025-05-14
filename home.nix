@@ -49,9 +49,9 @@
   # plain files is through 'home.file'.
   home.file = {
     
-    ".bash_aliases" = {
-      source = ./bash/bash_aliases;
-    };
+    # ".bash_aliases" = {
+    #   source = ./bash/bash_aliases;
+    # };
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
