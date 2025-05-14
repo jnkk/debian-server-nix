@@ -22,7 +22,8 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-
+    
+    nixd
     lazygit
     neovim
 
@@ -48,14 +49,11 @@
   # plain files is through 'home.file'.
   home.file = {
     
-    ".bash_aliases".text = ''
-        alias lg='lazygit'
-        alias sb='source .bashrc'
-        alias 'cd..'='cd ..'
-        alias '..'='cd ..'
-        alias hmsf='home-manager switch --flake .'
-        alias homeconfig='cd ~/nix-config; nvim home.nix'
-    '';
+    ".bash_aliases" = { 
+      # source = fileReference "./bash_aliases";
+      source = ./bash_aliases; 
+    
+    };
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
