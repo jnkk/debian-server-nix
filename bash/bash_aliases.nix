@@ -30,6 +30,8 @@
 
       alias gennum='openssl rand -base64 32'
 
+      alias keluar='cd; exit'
+
 
     '';
   };
