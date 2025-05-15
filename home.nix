@@ -26,6 +26,10 @@
     nixd
     lazygit
     fast-cli
+    eza
+
+    # python management
+    uv 
 
     # text editors
     neovim micro
