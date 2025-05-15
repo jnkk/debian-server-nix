@@ -35,6 +35,8 @@
 
       alias keluar='cd; exit'
 
+      alias editserver='sudo vim /etc/hosts'
+
 
     '';
   };
