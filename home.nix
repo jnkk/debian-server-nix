@@ -27,7 +27,7 @@
     lazygit
     fast-cli
     eza
-    direnv
+    direnv devenv
     bat
     lazydocker
 
