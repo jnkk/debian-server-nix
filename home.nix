@@ -27,6 +27,9 @@
     lazygit
     fast-cli
     eza
+    direnv
+    bat
+    lazydocker
 
     # python management
     uv 
