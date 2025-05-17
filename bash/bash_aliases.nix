@@ -18,6 +18,7 @@
       alias up='sudo nala update && sudo nala upgrade' 
       alias st='fast -u' 
       alias lg='lazygit' 
+      alias ld='lazydocker'
       alias mkdp='mkdir -p' 
       alias homeconf='cd ~/nix-config'
       alias nixconfig='cd ~/nix-config; nvim home.nix' 
