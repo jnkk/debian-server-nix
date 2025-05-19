@@ -44,7 +44,8 @@
     
 
     # python management
-    uv 
+    uv
+    mise 
 
     # text editors
     neovim micro
