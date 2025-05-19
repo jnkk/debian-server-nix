@@ -4,11 +4,18 @@
 
   imports = [
     ./bash/bash_aliases.nix
+    #./git/git.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "jnkk";
   home.homeDirectory = "/home/jnkk";
+
+  programs.git = {
+    enable = true;
+    userName  = "Arian Reza";
+    userEmail = "arian.reza.setiawan@gmail.com";
+  };
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -24,12 +31,17 @@
   home.packages = with pkgs; [
     
     nixd
+    direnv devenv
+    
+    # terminal
+    btop
+    lazydocker
     lazygit
     fast-cli
-    eza
-    direnv devenv
     bat
-    lazydocker
+    eza
+    fastfetch
+    
 
     # python management
     uv 
