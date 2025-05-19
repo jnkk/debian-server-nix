@@ -42,6 +42,8 @@
     eza
     fastfetch
     
+    # languages
+    go
 
     # python management
     uv
