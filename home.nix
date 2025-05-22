@@ -41,9 +41,6 @@
     bat
     eza
     fastfetch
-    
-    # languages
-    go
 
     # python management
     uv
@@ -54,6 +51,9 @@
 
     # ihp digitally induced
     ihp-new
+
+    # language
+    ruby
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
