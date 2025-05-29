@@ -37,6 +37,7 @@
       alias keluar='cd; exit'
 
       alias editserver='sudo vim /etc/hosts'
+      alias nettop='sudo iftop'
 
 
     '';
