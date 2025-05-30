@@ -38,6 +38,7 @@
 
       alias editserver='sudo vim /etc/hosts'
       alias nettop='sudo iftop'
+      alias execdocker='docker exec -it postgres psql -U postgres'
 
 
     '';
